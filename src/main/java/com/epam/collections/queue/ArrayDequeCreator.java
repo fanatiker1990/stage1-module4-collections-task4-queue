@@ -25,10 +25,4 @@ public class ArrayDequeCreator extends PriorityQueue<String> {
 
         return integerArrayDeque;
     }
-
-    public static void main(String[] args) {
-        ArrayDequeCreator s = new ArrayDequeCreator();
-        System.out.println(s.createArrayDeque(new LinkedList<>(List.of(1, 3, 5, 4, 7, 9)),
-                new LinkedList<>(List.of(4, 2, 8, 5, 8, 3))));
-    }
 }
